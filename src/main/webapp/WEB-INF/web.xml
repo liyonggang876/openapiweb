@@ -1,0 +1,96 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+    <servlet-name>AgentPartRefundServlet</servlet-name>
+    <servlet-class>openapiautotest.servlet.AgentPartRefundServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AgentPassiveServlet</servlet-name>
+    <servlet-class>openapiautotest.servlet.AgentPassiveServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AgentRefundServlet</servlet-name>
+    <servlet-class>openapiautotest.servlet.AgentRefundServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AgentServlet</servlet-name>
+    <servlet-class>openapiautotest.servlet.AgentServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CustomerPartRefundServlet</servlet-name>
+    <servlet-class>openapiautotest.servlet.CustomerPartRefundServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CustomerPassiveServlet</servlet-name>
+    <servlet-class>openapiautotest.servlet.CustomerPassiveServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CustomerServlet</servlet-name>
+    <servlet-class>openapiautotest.servlet.CustomerServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DeclareCustomerServlet</servlet-name>
+    <servlet-class>openapiautotest.servlet.DeclareCustomerServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DeclareInfoServlet</servlet-name>
+    <servlet-class>openapiautotest.servlet.DeclareInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DeclareSettleServlet</servlet-name>
+    <servlet-class>openapiautotest.servlet.DeclareSettleServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CustomerRefundServlet</servlet-name>
+    <servlet-class>openapiautotest.servlet.CustomerRefundServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>AgentPassiveServlet</servlet-name>
+    <url-pattern>/servlet/AgentPassiveServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AgentServlet</servlet-name>
+    <url-pattern>/servlet/AgentServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CustomerPassiveServlet</servlet-name>
+    <url-pattern>/servlet/CustomerPassiveServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CustomerServlet</servlet-name>
+    <url-pattern>/servlet/CustomerServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CustomerPartRefundServlet</servlet-name>
+    <url-pattern>/servlet/CustomerPartRefundServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AgentRefundServlet</servlet-name>
+    <url-pattern>/servlet/AgentRefundServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AgentPartRefundServlet</servlet-name>
+    <url-pattern>/servlet/AgentPartRefundServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeclareInfoServlet</servlet-name>
+    <url-pattern>/servlet/DeclareInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeclareCustomerServlet</servlet-name>
+    <url-pattern>/servlet/DeclareCustomerServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeclareSettleServlet</servlet-name>
+    <url-pattern>/servlet/DeclareSettleServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CustomerRefundServlet</servlet-name>
+    <url-pattern>/servlet/CustomerRefundServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
